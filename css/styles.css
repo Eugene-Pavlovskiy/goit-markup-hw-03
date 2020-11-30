@@ -407,6 +407,11 @@ header {
   flex-wrap: wrap;
 }
 
+.projects__item-list:nth-child(3n) {
+  margin-right: 0;
+}
+
+
 .projects__item-list {
   width: 370px;
   margin-bottom: 30px;
