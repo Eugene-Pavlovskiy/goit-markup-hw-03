@@ -109,6 +109,7 @@ header {
   padding-top: 24px;
   padding-bottom: 25px;
   min-width: 1600px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -410,7 +411,6 @@ header {
 .projects__item-list:nth-child(3n) {
   margin-right: 0;
 }
-
 
 .projects__item-list {
   width: 370px;
