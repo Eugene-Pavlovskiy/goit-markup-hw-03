@@ -62,7 +62,9 @@ img {
 .navigation__list-link:hover,
 .navigation__list-link:focus,
 .header__mail:hover,
-.header__mail:focus {
+.header__mail:focus,
+.header__tel:hover,
+.header__tel:focus {
   color: var(--accent-color);
 }
 
@@ -336,11 +338,11 @@ header {
   display: flex;
   flex-direction: column;
   width: 231px;
-  padding: 20px 0px 60px 0px;
+  margin-top: 20px;
 }
 
 .footer .contact-list__item:not(:first-child) {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 .contact-list__description,
@@ -349,7 +351,7 @@ header {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.715;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-left: auto;
